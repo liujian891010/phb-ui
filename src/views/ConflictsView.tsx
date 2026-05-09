@@ -9,17 +9,17 @@ export default function ConflictsView() {
         <div>
           <div className="flex items-center gap-2 mb-1">
             <AlertTriangle className="text-red-400" size={20} />
-            <span className="text-[13px] font-medium text-red-400 uppercase tracking-wider">Sync Conflict</span>
+            <span className="text-[13px] font-medium text-red-400 uppercase tracking-wider">同步冲突</span>
           </div>
-          <h2 className="text-2xl font-bold text-[#e3e2e6] break-all">Conflict Detected in 'Product Roadmap.md'</h2>
-          <p className="text-slate-400 mt-2 text-sm">Please select a version to keep, or merge the changes manually.</p>
+          <h2 className="text-2xl font-bold text-[#e3e2e6] break-all">在 'Product Roadmap.md' 中检测到冲突</h2>
+          <p className="text-slate-400 mt-2 text-sm">请选择要保留的版本，或手动合并更改。</p>
         </div>
         <div className="flex items-center gap-2 shrink-0">
           <button className="px-4 py-2 rounded-lg border border-[#43474f] text-[#e3e2e6] hover:bg-[#292a2d] transition-colors text-[13px] font-medium flex items-center gap-2">
-            <X size={18} /> Cancel
+            <X size={18} /> 取消
           </button>
           <button className="px-4 py-2 rounded-lg bg-[#0f3460] text-[#a9c8fc] hover:brightness-110 transition-colors text-[13px] font-medium flex items-center gap-2 border border-[#0f3460]/50">
-            <Merge size={18} /> Merge Manually
+            <Merge size={18} /> 手动合并
           </button>
         </div>
       </div>
@@ -34,12 +34,12 @@ export default function ConflictsView() {
                  <Laptop size={18} className="text-slate-400" />
               </div>
               <div>
-                <div className="text-[13px] font-medium text-[#e3e2e6]">Version A (MacBook Pro)</div>
-                <div className="text-[11px] text-slate-500">Modified: Today, 10:42 AM</div>
+                <div className="text-[13px] font-medium text-[#e3e2e6]">版本 A (MacBook Pro)</div>
+                <div className="text-[11px] text-slate-500">修改时间: 今天, 10:42 AM</div>
               </div>
             </div>
             <button className="px-4 py-2 rounded-lg bg-[#0f3460] text-white hover:brightness-105 transition-all text-[13px] font-medium flex items-center gap-2 hover:shadow-[0_0_8px_rgba(15,52,96,0.5)] border border-[#0f3460]/50">
-              <CheckCircle size={18} /> Keep This
+              <CheckCircle size={18} /> 保留此版本
             </button>
           </div>
           <div className="flex-1 overflow-y-auto p-4 bg-[#0d0e11] font-mono text-[15px] leading-[1.7] text-slate-400 relative">
@@ -75,12 +75,12 @@ export default function ConflictsView() {
                  <Smartphone size={18} className="text-slate-400" />
               </div>
               <div>
-                <div className="text-[13px] font-medium text-[#e3e2e6]">Version B (iPhone 14 Pro)</div>
-                <div className="text-[11px] text-slate-500">Modified: Today, 10:45 AM</div>
+                <div className="text-[13px] font-medium text-[#e3e2e6]">版本 B (iPhone 14 Pro)</div>
+                <div className="text-[11px] text-slate-500">修改时间: 今天, 10:45 AM</div>
               </div>
             </div>
             <button className="px-4 py-2 rounded-lg bg-[#e94560] text-white hover:brightness-105 transition-all text-[13px] font-medium flex items-center gap-2 hover:shadow-[0_0_8px_rgba(233,69,96,0.5)] bg-gradient-to-b from-white/10 to-transparent">
-              <CheckCircle size={18} /> Keep This
+              <CheckCircle size={18} /> 保留此版本
             </button>
           </div>
           <div className="flex-1 overflow-y-auto p-4 bg-[#0d0e11] font-mono text-[15px] leading-[1.7] text-slate-400 relative">
